@@ -1,0 +1,100 @@
+
+.jb-message-list-wrapper{
+    position: absolute;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    margin-top: 64px;
+    z-index: 9999;
+    top: 0;
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto;
+    pointer-events: none;
+    .jb-message-wrapper{
+        pointer-events: all;
+        width: auto;
+        max-width: 70vw;
+        min-height: 64px;
+        display: flex;
+        align-items: center;
+        padding: 0 8px 0 0;
+        border-radius: 64px;
+        margin: 16px auto;
+        justify-content: space-between;
+        opacity: 1;
+        transition: 1s all ease-in-out;
+        &.--hide{
+            transform: rotateX(90deg);
+            opacity: 0;
+            transition: 1s all ease-in-out;
+        }
+        .message-close-btn-wrapper{
+            width: 48px;
+            height: 48px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+        }
+        .message-text-wrapper{
+            color:#fff;
+            padding: 16px 0px;
+            line-height: 32px;
+        }
+        &.--success{
+            background-color: #5cb85c;
+        }
+        &.--error{
+            background-color: #ff0033;
+        }
+        &.--information{
+            background-color: #1471eb;
+        }
+        &.--warning{
+            background-color: #fff700;
+        }
+        .message-svg-icon-wrapper{
+            width: 64px;
+            height: 64px;
+            .message-svg-icon{
+                width: 64px;
+                height: 64px;
+                fill:#fff;
+                .border-circle{
+                    fill: none;
+                    stroke: #fff;
+                    stroke-width:4px;
+                    //animation: circleAnimation 9s  ease 0s forwards;
+                   stroke-dasharray: 208;
+                   stroke-linecap: round;
+                }
+                @keyframes circleAnimation {
+                    from {
+                        stroke-dashoffset: 0;
+                    }
+                  
+                    to {
+                        stroke-dashoffset: 208;
+                    }
+                  }
+                .message-inner-icon-shape-group{
+                    stroke: #000;
+                    stroke-width: 4px;
+                    stroke-linecap: round;
+                    &.--error{
+                        stroke: #ff0033;
+                    }
+                    &.--information{
+                        stroke: #1471eb;
+                    }
+                    &.--success{
+                        stroke: #5cb85c;
+                    }
+                }
+            }
+        }
+        
+    }
+}

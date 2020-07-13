@@ -1,0 +1,28 @@
+{
+  "name": "jb-message",
+  "description": "message notification",
+  "author": {
+		"name": "mohammad javad bathaei",
+		"email": "javadbat@gmail.com"
+	},
+  "keywords": [
+    "jb",
+    "jb-message",
+    "notification",
+    "purejs notification module"
+  ],
+  "version": "1.0.0",
+  "bugs": "https://github.com/javadbat/jb-message/issues",
+  "license": "MIT",
+  "files": [
+    "LICENSE",
+    "README.md",
+    "lib/",
+    "dist/"
+  ],
+  "main": "index.js",
+  "repository": {
+		"type": "git",
+		"url": "git@github.com:javadbat/jb-message.git"
+  }
+}
