@@ -1,1 +1,1 @@
-export default './dist/JBMessage'
+export {default} from './dist/JBMessage';
