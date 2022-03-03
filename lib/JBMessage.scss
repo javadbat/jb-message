@@ -1,8 +1,9 @@
-
 .jb-message-list-wrapper{
+    position: var(--jb-message-position, absolute);
     overflow: hidden;
     display: flex;
     flex-direction: column;
+    margin-top: var(--jb-message-margin-top, 64px);
     z-index: 9999;
     top: 0;
     left: 0; 
