@@ -11,7 +11,7 @@
     "notification",
     "purejs notification module"
   ],
-  "version": "1.0.5",
+  "version": "1.1.0",
   "bugs": "https://github.com/javadbat/jb-message/issues",
   "license": "MIT",
   "files": [
