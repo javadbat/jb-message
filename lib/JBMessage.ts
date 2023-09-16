@@ -1,5 +1,4 @@
-// import CSS from './JBMessage.scss';
-const CSS ="ssss";
+import CSS from './JBMessage.scss';
 import { MessageDiv, MessageType, NewMessageParams } from './types';
 function selfClose(this: MessageDiv){
     //in this function "this" is a dom of alert

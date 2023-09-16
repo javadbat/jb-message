@@ -12,7 +12,7 @@ message builder module for js
 first you have to create your message instance and config and style it however you want
 ```js
     //your-custom-app-message.js
-    import JBMessage from  'jb-message';
+    import {JBMessage} from  'jb-message';
     const message = new JBMessage();
     export {message};
 
