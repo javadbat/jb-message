@@ -11,7 +11,7 @@
     "notification",
     "purejs notification module"
   ],
-  "version": "1.2.0",
+  "version": "2.0.0",
   "bugs": "https://github.com/javadbat/jb-message/issues",
   "license": "MIT",
   "files": [
@@ -22,6 +22,7 @@
   ],
   "main": "index.js",
   "type": "module",
+  "types": "./dist/JBMessage.d.ts",
   "repository": {
 		"type": "git",
 		"url": "git@github.com:javadbat/jb-message.git"
