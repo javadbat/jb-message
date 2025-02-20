@@ -1,6 +1,8 @@
 # JBMessage
 message builder module for js
 
+> this package is deprecated please use jb-notification instead
+
 ## installation 
 ```bash
 
